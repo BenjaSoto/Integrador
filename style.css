@@ -1,0 +1,202 @@
+.navbar{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+#imagen_inicio {
+    width: 100%;
+    filter: brightness(0.6);
+}
+
+
+#boton {
+    background-color: #1FB10E;
+}
+
+/*banner aysa*/
+.container-aysa {
+    position: relative;
+    text-align: right;
+
+}
+
+
+/*oradores*/
+.conoce {
+    text-align: center;
+    margin: 0rem;
+}
+
+.conoce>h6 {
+    padding-top: 1rem;
+    font-size: medium;
+    margin-bottom: 0.2rem;
+}
+
+.card {
+    border: 1.3px solid lightgray;
+    margin-top: 2.5rem;
+    margin: 1.2rem;
+
+}
+
+.card a {
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+}
+
+/*fin oradores*/
+
+.container-octubre {
+
+    padding: 3em 0.72em;
+    /* */
+    padding-bottom: 1.5rem;
+}
+
+#epigrafe {
+    background-color: rgb(53, 58, 64);
+    color: white;
+    border: 0.6px solid lightgray;
+}
+
+.imagen_octubre {
+    padding: 0%;
+    border: 0.6px solid lightgray;
+}
+
+/* formulario*/
+.formulario{
+    max-width: 100%;
+}
+.div-convertite-orador {
+    text-align: center;
+}
+
+.discontinuo {
+    border-bottom: thin dashed;
+}
+
+.container-form {
+    text-align: right;
+}
+
+#boton-enviar {
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+}
+
+#titulo {
+    text-align: left;
+    color: gray;
+}
+
+/* fin formulario*/
+/*footer*/
+.col-lg-1 {
+    margin: 1rem;
+}
+
+footer a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+
+}
+#footer{
+
+    margin-bottom: 0;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.footer {
+
+    background: rgb(21, 46, 73);
+    background: linear-gradient(98deg, rgba(21, 46, 73, 1) 55%, rgba(64, 113, 164, 1) 100%);
+}
+
+/*Responsive texto aysa*/
+@media (min-width: 1230px) {
+    .centrado {
+
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    } 
+
+}
+
+@media (max-width: 1229px) {
+    body{
+        overflow-x: hidden;
+    }
+    .centrado {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+
+        text-align: left;
+    }
+
+    #boton-aysa {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 611px) {
+    .navbar{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .centrado {
+        width: 90%;
+        position: absolute;
+        color: white;
+        font-size: small;
+    } 
+}
+
+
+@media (max-width: 375px) {
+    .navbar{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .centrado {
+        width: 90%;
+        position: absolute;
+        color: white;
+        font-size: small;
+
+    }
+
+    p{
+        margin: 0rem;
+    }
+    h1{
+        margin: 0rem;
+    }
+
+}
+
