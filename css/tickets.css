@@ -1,0 +1,85 @@
+.navbar {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.cartelera{
+    width: 100%;
+    padding-left: 1.608rem;
+}
+
+/*
+.cartera{
+    justify-items: center;
+    padding-left: 1.608rem;
+}
+*/
+/*div descuentos*/
+.descuento>h4 {
+    text-align: center;
+}
+
+.descuento>h5 {
+    text-align: center;
+}
+
+/*fin descuentos*/
+/*div.ventas*/
+.ventas {
+    text-align: center;
+}
+
+/*fin ventas*/
+/*formulario*/
+
+
+.total {
+    background-color: rgb(204, 229, 255);
+    border:1px solid;
+    border-radius: 5px;
+    border-color: rgb(184, 218, 255);
+    padding: 1rem;
+    margin: 0.89rem;
+    color: rgb(0, 64, 165);
+}
+
+#boton {
+    width: 100%;
+
+    background-color: rgb(151, 201, 62);
+    border-color: rgb(151, 201, 62);
+}
+
+/*footer*/
+.col-lg-1 {
+    margin: 1rem;
+}
+
+footer a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+
+}
+#footer{
+
+    margin-bottom: 0;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.footer {
+
+    background: rgb(21, 46, 73);
+    background: linear-gradient(98deg, rgba(21, 46, 73, 1) 55%, rgba(64, 113, 164, 1) 100%);
+}
+
+@media (max-width: 611px) {
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
